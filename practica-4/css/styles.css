@@ -1,0 +1,101 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 68px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+h2 {
+  font-size: 28px;
+}
+
+.featured-cards {
+  display: flex;
+}
+.featured-cards__style-1 {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 5.1px 3.9px 12.3px rgba(0, 0, 0, 0.06), 41px 31px 98px rgba(0, 0, 0, 0.12);
+  height: 500px;
+  margin-left: 170px;
+  margin-right: -120px;
+  width: 350px;
+  transition: 0.3s cubic-bezier(0.6, 0.4, 0, 1), transform 0.15s ease;
+}
+.featured-cards__style-1--text {
+  text-align: start;
+  padding: 30px;
+}
+.featured-cards__style-1 span {
+  opacity: 0%;
+  color: black;
+  font-weight: bold;
+  transition: all 0.3s cubic-bezier(0.6, 0.4, 0, 1);
+}
+.featured-cards__style-1:hover span {
+  opacity: 100%;
+  top: 0;
+  font-size: 1.2em;
+}
+.featured-cards__style-1:hover {
+  background: #fde721;
+}
+.featured-cards__style-1 img {
+  border-radius: 15px 15px 0 0;
+}
+.featured-cards__style-1 p {
+  color: #545454;
+}
+.featured-cards__style-2 {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 5.1px 3.9px 12.3px rgba(0, 0, 0, 0.06), 41px 31px 98px rgba(0, 0, 0, 0.12);
+  height: 500px;
+  margin-left: 170px;
+  margin-right: -120px;
+  width: 350px;
+  transition: 0.3s cubic-bezier(0.6, 0.4, 0, 1), transform 0.15s ease;
+}
+.featured-cards__style-2--text {
+  text-align: start;
+  padding: 30px;
+}
+.featured-cards__style-2 span {
+  opacity: 0%;
+  color: black;
+  font-weight: bold;
+  transition: all 0.3s cubic-bezier(0.6, 0.4, 0, 1);
+}
+.featured-cards__style-2:hover span {
+  opacity: 100%;
+  top: 0;
+  font-size: 1.2em;
+}
+.featured-cards__style-2:hover {
+  background: #fde721;
+}
+.featured-cards__style-2 img {
+  border-radius: 15px 15px 0 0;
+}
+.featured-cards__style-2 p {
+  color: #545454;
+}
+.featured-cards__link {
+  letter-spacing: 0.2ch;
+  align-items: center;
+  background-color: #fde721;
+  color: black;
+  display: inline-block;
+  font-weight: bold;
+  justify-content: space-around;
+  margin-left: 800px;
+  margin-top: 80px;
+  padding: 15px 50px;
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=styles.css.map */
